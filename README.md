@@ -1,6 +1,6 @@
 bmaca.github.io
 ===============
 
-Website
+A public Repositiry for my Personal Website. 
 
-Working on a website to host with GH. Just testing the waters!
+
