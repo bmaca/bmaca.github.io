@@ -34,7 +34,7 @@
       }
     }
     ctx.putImageData(imageData, 0, 0);
-    link.href = canvas.toDataURL('image/png');
+    
     requestAnimationFrame(renderFrame);
   });
 })();
