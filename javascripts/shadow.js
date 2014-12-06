@@ -1,5 +1,5 @@
 
-(functionn() {
+(function() {
   var shine = new Shine(document.getElementById('title'));
   shine.config.opacity    = 0.4;
   shine.config.numSteps   = 10;
