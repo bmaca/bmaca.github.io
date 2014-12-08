@@ -1,28 +1,4 @@
-
-
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <title>Bill Maca</title>
-    <meta name="keywords" content="Bill Maca domain. I am Computer Forensics Analyst, Coder, Scripter, Hacker and a tech enthusiasts.">
-    <meta name="description" content="Bill Maca domain. I am Computer Forensics Analyst, Coder, Scripter, Hacker and a tech enthusiasts. ">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
-    <style>
-      * { box-sizing: border-box }
-
-      html, body {
-        margin                : 0;
-        padding               : 0;
-        width                 : 100%;
-        height                : 100%;
-        font-family           : 'Lato', sans-serif;
-        text-align            : center;
-      }
-      
-       body {
+body {
         font-size: 20px;
 	line-height: 30px;
 	color: #222;
@@ -171,34 +147,3 @@
            -1px -2px 12px rgba(255, 255, 255, 0.1);
       }
     </style>
-
- </style>
-  </head>
-  <body>
-    <div>
-      <h1 id="title">Bill Maca</h1>
-      <hr>
-      <p>
-        Welcome! I am a Software QA Engineer, Computer Forensics Analyst, Coder, Scripter, Hacker and tech enthusiast
-         &hellip;
-      </p>
-      <p class="small">
-        Based in <a href="http://en.wikipedia.org/wiki/Chicago">Chicago</a>.
-      </p>
-      <p>
-        <ul>
-          <li><a href="https://github.com/bmaca/">GitHub</a></li>
-          <li><a href="http://twitter.com/billmaca90">Twitter</a></li>
-	  <li><a href="https://www.linkedin.com/profile/view?id=199108148&trk=nav_responsive_tab_profile">LinkedIn</a></li>
-          <li><a href="CV/bmacaResume.pdf">CV</a></li> 
-          <li><a href="mailto:bill@billmaca.com">Contact</a></li>	
-        </ul>
-      </p>
-    </div>
-    <canvas id="canvas" width="16" height="16" style="display:none"></canvas>
-    <script src="javascripts/shine.min.js"></script>
-    <script src="javascripts/shadow.js"></script>
-    <script src="javascripts/plasma.js"></script>
-  </body>
-</html>
-
