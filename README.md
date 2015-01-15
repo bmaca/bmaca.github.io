@@ -1,6 +1,6 @@
 bmaca.github.io
 ===============
 
-A public Repositiry for my Personal Website. 
+Public Repositiry for my Personal Website. 
 
 
