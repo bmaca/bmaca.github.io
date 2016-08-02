@@ -87,13 +87,13 @@
 
       li {
         margin-top  : 1em;
-        display     : inline-block;
+        display     : inline-flex;
       }
 
       li:after {
         content     : "•";
-        margin      : 0 0.25em 0 0.5em;
-        width       : 0;
+        margin      : 0 0.25em 0 0.1em;
+        width       : 8px;
       }
 
       li:last-child:after {
