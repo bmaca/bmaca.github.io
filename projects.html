@@ -5,19 +5,30 @@
     <title>Bill Maca - Projects</title>
     <meta name="description" content="Projects by Bill Maca, Software Engineer.">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/projects.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+    <style>
+      /* Override body:before for Projects page */
+      body:before {
+        display: none;
+      }
+      body {
+        padding-top: 20px;
+      }
+    </style>
   </head>
   <body>
+    <div class="back-to-home top">
+      <a href="index.html">Back to Home</a>
+    </div>
     <h1>Projects</h1>
     <div class="project">
       <h2>DotTube</h2>
       <p>A Chrome extension that blocks YouTube ads for a cleaner viewing experience.</p>
       <div class="tags">
         <span class="tag">Javascript</span>
+        <span class="tag">Chrome Extension</span>
         <span class="tag">HTML</span>
         <span class="tag">CSS</span>
-        <span class="tag">Chrome Extension</span>
-        <span class="tag">Ad Blocker</span>
       </div>
       <a href="https://github.com/bmaca/dottube" target="_blank">View on GitHub</a>
     </div>
@@ -33,16 +44,18 @@
       <a href="https://github.com/bmaca/familiar-log" target="_blank">View on GitHub</a>
     </div>
     <div class="project">
-        <h2>Happy Holidays App</h2>
-        <p>A Python app that uses the Twilio API to send holiday greetings to friends and family.</p>
-        <div class="tags">
-          <span class="tag">Python</span>
-          <span class="tag">Twilio API</span>
-          <span class="tag">Cron</span>
-          <span class="tag">Automation</span>
-        </div>
-        <a href="https://github.com/bmaca/HappyHollidays-App" target="_blank">View on GitHub</a>
+      <h2>Happy Holidays App</h2>
+      <p>A Python app that uses the Twilio API to send holiday greetings to friends and family.</p>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">Twilio API</span>
+        <span class="tag">Cron</span>
+        <span class="tag">Automation</span>
       </div>
-    <p><a href="index.html">Back to Home</a></p>
+      <a href="https://github.com/bmaca/HappyHollidays-App" target="_blank">View on GitHub</a>
+    </div>
+    <div class="back-to-home bottom">
+      <a href="index.html">Back to Home</a>
+    </div>
   </body>
 </html>
