@@ -1,0 +1,48 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.project h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+.project p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+}
+.project a {
+    color: #781b3b;
+    text-decoration: none;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+.tags {
+    margin: 10px 0 0 0;
+}
+.tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 4px 8px;
+    margin-right: 5px;
+    border-radius: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+}
